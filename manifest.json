@@ -1,0 +1,17 @@
+{
+    "name": "Open New Tab in Group",
+    "version": "0.0.1",
+    "description": "Opens a new tab in the current group",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "action": {},
+    "commands": {
+        "_execute_action": {
+            "suggested_key": "Ctrl+Shift+T",
+            "description": "New Group Tab"
+        }
+    }
+}
