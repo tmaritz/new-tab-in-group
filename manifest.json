@@ -1,17 +1,21 @@
 {
-    "name": "Open New Tab in Group",
+    "name": "New Tab in Group",
     "version": "0.0.1",
-    "description": "Opens a new tab in the current group",
+    "description": "Opens a new tab in the current group via keyboard shortcut",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "scripting", "tabs"],
     "action": {},
     "commands": {
         "_execute_action": {
-            "suggested_key": "Ctrl+Shift+T",
-            "description": "New Group Tab"
+            "suggested_key": {
+                "windows": "Ctrl+Shift+Y",
+                "mac": "Command+Shift+Y",
+                "chromeos": "Ctrl+Shift+U",
+                "linux": "Ctrl+Shift+J"
+            }
         }
     }
 }
