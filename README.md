@@ -1,6 +1,6 @@
 # chrome-extension-new-tab-in-group
 
-Open a new tab in the current tab group using the following shortcuts:
+A Google Chrome Extension that allows the user to open a new tab in the current tab group using the following shortcuts:
 - "windows": "Ctrl+Shift+Y",
 - "mac": "Command+Shift+Y",
 - "chromeos": "Ctrl+Shift+U",
