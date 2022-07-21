@@ -6,7 +6,6 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["scripting", "tabs"],
     "action": {},
     "commands": {
         "_execute_action": {
